@@ -1,0 +1,103 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+#casing {
+    width:640px;
+    height:720px;
+    margin: 10vh auto;
+    border-radius:16px;
+    border:2px solid black;
+}
+
+#screen {
+    width:90%;
+    height:90%;
+    margin: 5% auto;
+    display:flex;
+    border-radius:8px;
+    border:1px solid black;
+}
+
+#buttons-menu {
+    width:35%;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    justify-content: space-around;
+    align-items:center;
+    border-right:1px solid black;
+}
+
+p, #discounted {font-size:26px;}
+
+#undiscounted {font-size:2.5vh;}
+
+button {
+    font-size:13px;
+    margin:0;
+    width:40%;
+    padding:4%
+}
+
+#tea button, #strawberry button, #coffee button {
+    font-size:20px;
+}
+
+#admin, #tea, #strawberry, #coffee, #checkout {
+    height:16%;
+    width:90%;
+    border:1px solid black;
+    border-radius:4px;
+}
+
+.buttons {
+    display:flex;
+    justify-content:space-around;
+    height:calc(100% - 4vh);
+}
+
+#cart-display {
+    width:65%;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+}
+
+#cart-title {
+    margin:4% auto;
+}
+
+#cart {
+    height:76%;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    padding:4%;
+    overflow:hidden;
+    border-top:1px solid black;
+}
+
+#totals {
+    height:20%;
+    text-align: right;
+    padding: 0 4%;
+    border-top:1px solid black;
+    vertical-align: center;
+}
+
+#discountTotal {
+    color:red;
+}
+
+
+#discounted {
+    font-size: 32px;
+    color:green;
+}
+
+.item {
+    display:flex;
+    justify-content: space-between;
+}
